@@ -11,6 +11,7 @@ class Mathematician:
             else:
                 new_list.append(i)
         return new_list
+    #return [num for num in nums if num < 0]
 
     def filter_leaps(self, list_integers_3):
         new_list = []
@@ -18,6 +19,7 @@ class Mathematician:
             if i % 4 == 0:
                 new_list.append(i)
         return new_list
+
 
 
 m = Mathematician()
